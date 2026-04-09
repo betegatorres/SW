@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Erro de login</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.3.0/css/all.css" crossorigin="anonymous" />
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #333;
+            padding: 20px;
+        }
+
+        .container-erro {
+            width: 100%;
+            max-width: 500px;
+        }
+
+        .box {
+            background: #fff;
+            border-radius: 12px;
+            padding: 40px 30px;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            animation: slideIn 0.5s ease-out;
+        }
+
+        h1 {
+            color: black;
+            margin: 20px 0 30px;
+            font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            font-size: 1.75rem;
+            font-weight: 700;
+        }
+
+        .msg {
+            margin: 20px 0;
+            font-size: 1rem;
+            line-height: 1.6;
+            color: #555;
+            background: #f8f9fa;
+            padding: 15px;
+            border-radius: 4px;
+            text-align: left;
+        }
+
+        .actions {
+            margin-top: 30px;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .actions a {
+            display: inline-block;
+            padding: 12px 24px;
+            text-decoration: none;
+            border-radius: 6px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            font-size: 0.95rem;
+            border: none;
+            cursor: pointer;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .actions a.back {
+            background: #777bb8;
+            color: #ffffff;
+        }
+
+        .actions a.back:hover {
+            background: #777bb8;
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(255, 200, 0, 0.3);
+        }
+
+        .actions a.home {
+            background: #212529;
+            color: #fff;
+        }
+
+        .actions a.home:hover {
+            background: #0d0e10;
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(33, 37, 41, 0.3);
+        }
+
+
+        @media (max-width: 480px) {
+            .box {
+                padding: 30px 20px;
+            }
+
+            h1 {
+                font-size: 1.5rem;
+                margin: 15px 0 20px;
+            }
+
+            .icon-error {
+                font-size: 3rem;
+                margin-bottom: 15px;
+            }
+
+            .msg {
+                font-size: 0.95rem;
+                padding: 12px;
+            }
+
+            .actions a {
+                padding: 10px 20px;
+                font-size: 0.9rem;
+            }
+        }
+
+        @media (max-width: 360px) {
+            .box {
+                padding: 25px 15px;
+            }
+
+            h1 {
+                font-size: 1.3rem;
+            }
+
+            .icon-error {
+                font-size: 2.5rem;
+            }
+        }
+    </style>
+</head>
+<body style="background: url(assets/img/team/banner2.jpg ); background-size: cover;">
+    <div class="container-erro">
+        <div class="box">
+            <h1>Falha no login</h1>
+            <p class="msg">E-mail ou senha inválidos.</p>
+            <div class="actions">
+                <a href="formulario2.php" class="back">
+                    <p>Voltar ao login</p>
+                </a>
+                <a href="index.html" class="home">
+                    <p>Página inicial</p>
+                </a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

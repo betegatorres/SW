@@ -3,13 +3,12 @@
     $senha = $_POST['senha'];
 
     // email: adm@email.com
-    //senha: 1234
+    // senha: 1234
 
     if ($email == 'adm@email.com' && $senha == '1234') {
         $nome = "Torres";
-        header('Location: restrita.php?nome='.$nome);
+        header('Location: restrita.php?nome=' . $nome);
     } else {
-        header('Location: erro.html');
+        header('Location: erro.php');
     }
-
 ?>

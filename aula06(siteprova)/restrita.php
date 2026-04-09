@@ -8,7 +8,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
-        <title>PHP</title>
+        <title>Restrita</title>
         <!-- Favicon-->
         <link rel="icon" type="image/x-icon" href="assets/img/team/PHP-logo.svg.png" />
         <!-- Font Awesome icons (free version)-->
@@ -35,9 +35,9 @@
                         <li class="nav-item"><a class="nav-link" href="#about">Evolução</a></li>
                         <li class="nav-item"><a class="nav-link" href="#team">Desenvolvedores</a></li>
                         <li class="nav-item">
-                        <a style=" color: red;" class="nav-link" href="index.html" onclick="return confirm('Tem certeza que deseja voltar? Você será desconectado do login ao voltar a página inicial.');">
-                        Voltar
-                        </a>
+                            <a style="color: red;" class="nav-link" href="index.html" onclick="return confirm('Tem certeza que deseja voltar? Você será desconectado do login ao voltar a página inicial.');">
+                                Voltar
+                            </a>
                         </li>
                     </ul>
                 </div>
@@ -46,8 +46,10 @@
         <!-- Masthead-->
         <header class="masthead">
             <div class="container">
-                <div class="masthead-subheading"><p >Bem vindo <?php echo $nome; ?> a sua</p>
-                <div style=" color: red;" class="masthead-heading text-uppercase">ÁREA RESTRITA</div>
+                <div class="masthead-subheading">
+                    <p>Bem vindo <?php echo $nome; ?> a sua</p>
+                </div>
+                <div style="color: red;" class="masthead-heading text-uppercase">ÁREA RESTRITA</div>
             </div>
         </header>
         <!-- Services-->
