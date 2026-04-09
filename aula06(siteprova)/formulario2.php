@@ -5,9 +5,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
-        <title>Agency - Start Bootstrap Theme</title>
+        <title>Login</title>
         <!-- Favicon-->
-        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <link rel="icon" type="image/x-icon" href="assets/img/team/PHP-logo.svg.png" />
         <!-- Font Awesome icons (free version)-->
         <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
         <!-- Google fonts-->
@@ -27,10 +27,10 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
-                        <li class="nav-item"><a class="nav-link" href="index.html #services">Services</a></li>
-                        <li class="nav-item"><a class="nav-link" href="index.html #portfolio">Portfolio</a></li>
-                        <li class="nav-item"><a class="nav-link" href="index.html #about">About</a></li>
-                        <li class="nav-item"><a class="nav-link" href="index.html #team">Team</a></li>
+                        <li class="nav-item"><a class="nav-link" href="index.html #services">PHP</a></li>
+                        <li class="nav-item"><a class="nav-link" href="index.html #portfolio">Ecossistema</a></li>
+                        <li class="nav-item"><a class="nav-link" href="index.html #about">Evolução</a></li>
+                        <li class="nav-item"><a class="nav-link" href="index.html #team">Desenvolvedores</a></li>
                         <li class="nav-item"><a class="nav-link" href="formulario2.php">Faça Login</a></li>
                     </ul>
                 </div>
@@ -49,10 +49,10 @@
                 <div class="row align-items-stretch mb-5">
         <form action="processa.php" method="POST">
             <div class="mb-3">
-                <label for="exampleInputEmail1" class="form-label">Email</label>
+                <label for="exampleInputEmail1" class="form-label">Email:</label>
                 <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="email">
             <div class="mb-3">
-                <label for="exampleInputPassword1" class="form-label">Senha</label>
+                <label for="exampleInputPassword1" class="form-label">Senha:</label>
                 <input type="password" class="form-control" id="exampleInputPassword1" name="senha">
             </div>
             <input class="btn btn-primary" type="submit" value="LOGAR">
@@ -65,15 +65,6 @@
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-lg-4 text-lg-start">Matheus Torres Betega Website 2026</div>
-                    <div class="col-lg-4 my-3 my-lg-0">
-                        <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
-                        <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
-                        <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
-                    </div>
-                    <div class="col-lg-4 text-lg-end">
-                        <a class="link-dark text-decoration-none me-3" href="#!">Privacy Policy</a>
-                        <a class="link-dark text-decoration-none" href="#!">Terms of Use</a>
-                    </div>
                 </div>
             </div>
         </footer>

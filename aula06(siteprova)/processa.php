@@ -6,11 +6,9 @@
     //senha: 1234
 
     if ($email == 'adm@email.com' && $senha == '1234') {
-        // echo"Vamos para area restrita";
         $nome = "Torres";
         header('Location: restrita.php?nome='.$nome);
     } else {
-        // echo"Email ou senha errada, volte para o formulário";
         header('Location: erro.html');
     }
 
