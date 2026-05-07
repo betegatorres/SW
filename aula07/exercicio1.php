@@ -3,11 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exercício 1 - Tabela colorida</title>
+    <title>exercicio 1</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Exercício 01 - Tabela colorida</h1>
+    <h1>Exercicio 1 -  Tabela Estilizada com Cores Alternadas</h1>
     <table>
         <?php
             for ($linha = 1; $linha <= 8; $linha ++){

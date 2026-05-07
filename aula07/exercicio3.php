@@ -23,9 +23,9 @@ $produtos = [
 ];
 
 $cores_categorias = [
-    "Eletrônico" => "#4400ff",
-    "Instrumento" => "#ff0000",
-    "Limpeza" => "#73ff00"
+    "Eletrônico" => "#e100ff",
+    "Instrumento" => "#1eff00",
+    "Limpeza" => "#00d9ff"
 ];
 ?>
 <!DOCTYPE html>
@@ -37,16 +37,14 @@ $cores_categorias = [
     <title>Exercício 3 - Tabela de produtos</title>
     <style>
         table {
-            border: 1px solid black;
+            border: 1px black;
             background-color: black;
-            border-radius: 5px;
         }
 
         table th,
         table td {
             border: 1px solid black;
             padding: 5px;
-            border-radius: 5px;
         }
 
         table th{
