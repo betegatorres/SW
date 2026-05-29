@@ -1,13 +1,17 @@
 <?php
-    $numeros = [1, 2, 3, 4, 5, 6, 7, 8];
-
-    foreach($numeros as $numeros){
-        if($numeros%2==0){
-            echo "$numeros é par <br>";
-        }else{echo "$numeros é impar<br>";}
+$par =[];
+$vetor =[1,2,3,4,5,6,7,8,9,10];
+foreach ($vetor as $chave) {
+    if($chave %2 == 0 ){
+        $par[] = $chave; 
+        echo("$chave é par <br>");
+    } else{
+        echo("$chave é impar <br>");
     }
-
-
-
-
+}
+echo"<hr>";
+echo"Numero pares: <br>";
+foreach ($par as $key) {
+    echo "$key <br>";
+}
 ?>
